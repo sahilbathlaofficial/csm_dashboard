@@ -1,0 +1,12 @@
+---
+layout: post
+title:  How to run survey only if user is a part of a AB campaign?
+date:   2016-02-11 12:14:54
+categories: OPS
+---
+
+To apply custom JS open code editor and your code:
+
+	function trigger(campaign_id, variation_id) {
+	  VWO.trigger(campaign_id, variation_id)
+	}
